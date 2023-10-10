@@ -1,0 +1,17 @@
+.App {
+    display: grid;
+    justify-content: center;  
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(3, 8rem);
+}
+
+button {
+    border: 1px solid #000;
+    font-size: 4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
