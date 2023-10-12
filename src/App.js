@@ -62,9 +62,7 @@ function App() {
         <Square value={squares[7]} onSquareClick={() => handleClick(7)} />
         <Square value={squares[8]} onSquareClick={() => handleClick(8)} />
       </div>
-      <div>
       <div className="status">{status}</div>
-      </div>
     </>
   )
 }
