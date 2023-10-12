@@ -1,5 +1,5 @@
-function Square({ value, onSqaureClick }) {
-  return <button type="button" onClick={ onSqaureClick }>{value}</button>;
+function Square({ value, onSquareClick }) {
+  return <button type="button" onClick={ onSquareClick }>{value}</button>;
 }
 
 export default Square;
